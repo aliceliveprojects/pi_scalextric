@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1200" style="overflow:hidden;position:relative" version="1.1">
+    <g style="-webkit-tap-highlight-color:rgba(0, 0, 0, 0)" transform="translate(-2048, -1080) scale(1)">
+        <desc>
+            Created with Raphaël 2.0.0
+        </desc>
+        <defs/>
+        <path fill="#999999" stroke="#3b4449" stroke-width="2" d="M2157.5,1264.1666666666667L2149.1666666666665,1264.1666666666667L2149.1666666666665,1272.5L2151.6666666666665,1270L2160,1278.3333333333333L2157.5,1280.8333333333333L2165.8333333333335,1280.8333333333333L2165.8333333333335,1272.5L2163.3333333333335,1275L2155,1266.6666666666667Z" style="display:none"/>
+        <path fill="#999999" stroke="#3b4449" stroke-width="2" d="M2245.5,1548.1666666666667L2237.1666666666665,1548.1666666666667L2237.1666666666665,1556.5L2239.6666666666665,1554L2248,1562.3333333333333L2245.5,1564.8333333333333L2253.8333333333335,1564.8333333333333L2253.8333333333335,1556.5L2251.3333333333335,1559L2243,1550.6666666666667Z" style="display:none"/>
+        <path fill="#999999" stroke="#3b4449" stroke-width="2" d="M2237.5,1460.1666666666667L2229.1666666666665,1460.1666666666667L2229.1666666666665,1468.5L2231.6666666666665,1466L2240,1474.3333333333333L2237.5,1476.8333333333333L2245.8333333333335,1476.8333333333333L2245.8333333333335,1468.5L2243.3333333333335,1471L2235,1462.6666666666667Z" style="display:none"/>
+        <rect width="75" height="50" x="2512.5" y="1137.5" r="0" fill="#ffffff" stroke="#3b4449" stroke-width="2" rx="0" ry="0" style=""/>
+        <path fill="none" stroke="#3b4449" stroke-width="2" d="M2550,1125L2550,1137.5" style=""/>
+        <path fill="none" stroke="#3b4449" stroke-width="2" d="M2550,1200L2550,1187.5" style=""/>
+        <text x="2550" y="1155" fill="#3b4449" font-size="12" text-anchor="middle" text-decoration="none"/>
+        <text x="2542" y="1133" fill="#3b4449" font-size="12" text-anchor="middle" text-decoration="none"/>
+        <text x="2550" y="1180" fill="#3b4449" font-size="12" text-anchor="middle" text-decoration="none"/>
+        <text x="2542" y="1200" fill="#3b4449" font-size="12" text-anchor="middle"/>
+        <text x="2550" y="1138.5" fill="#3b4449" font-size="16" font-weight="bold" text-anchor="middle" text-decoration="none"/>
+        <text x="2550" y="1162.5" fill="#3b4449" font-size="16" font-weight="bold" text-anchor="middle" text-decoration="none">
+            M
+        </text>
+        <text x="2550" y="1186.5" fill="#3b4449" font-size="16" font-weight="bold" text-anchor="middle" text-decoration="none"/>
+        <rect width="100" height="75" x="2500" y="1125" r="0" fill="#ffffff" stroke="#ffffff" stroke-opacity="0" opacity="0" rx="0" ry="0" style="stroke-opacity:0;opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2700 1225 L 2700 1200" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2700" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2700" cy="1200" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="10" height="25" x="2695" y="1200" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2550 1200 L 2550 1225" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1200" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="10" height="25" x="2545" y="1200" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1200" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2700" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2700" cy="1200" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2550 1100 L 2550 1125" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1100" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="10" height="25" x="2545" y="1100" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1100" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1125" r="3" fill="#3b4449" stroke="#3b4449" style=""/>
+        <circle cx="2550" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2550 1225 L 2700 1225" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2700" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="150" height="10" x="2550" y="1222" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2700" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="#ffffff" stroke="#ffffff" d="M10,20L40,20L40,80L10,80" opacity="0" style="opacity:0" transform="matrix(1,0,0,1,2500,1275)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M0,50L12.5,50" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(1,0,0,1,2500,1275)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M12.5,87.5L12.5,12.5" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(1,0,0,1,2500,1275)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M12.5,32.81249L50,12.5" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(1,0,0,1,2500,1275)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M50,0L50,12.5" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(1,0,0,1,2500,1275)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M12.5,67.18752L50,87.5" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(1,0,0,1,2500,1275)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M50,100L50,87.5" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(1,0,0,1,2500,1275)"/>
+        <path fill="#3b4449" stroke="none" d="M27.931232,81.97502C36.649984,82.49792,38.679151,83.67082,50,87.5C41.0229,79.61042,38.993733,78.43962,34.181237,71.15002C33.189565,75.98962,31.627079,78.69792,27.931232,81.97502" style="" transform="matrix(1,0,0,1,2500,1275)"/>
+        <text x="0" y="0" fill="#3b4449" stroke="none" font="10px &quot;Arial&quot;" font-size="16px" font-weight="bold" style="text-anchor:start;font:bold 16px Arial" text-anchor="start" transform="matrix(1,0,0,1,2550,1325)">
+            <tspan dy="-2.3999999999999995">Power Transistor</tspan><tspan x="0" dy="19.2">tip3055</tspan>
+        </text>
+        <circle cx="2500" cy="1325" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1275" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1375" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2550 1275 L 2550 1225" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1275" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="10" height="50" x="2545" y="1225" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1275" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1225" r="3" fill="#3b4449" stroke="#3b4449" style=""/>
+        <circle cx="2550" cy="1225" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2400 1325 L 2275 1325" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2400" cy="1325" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2275" cy="1325" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="125" height="10" x="2275" y="1322" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2400" cy="1325" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2275" cy="1325" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M25,21.87499L25,0" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(0,-1,1,0,2400,1350)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M25,78.12502L25,100" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(0,-1,1,0,2400,1350)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M25,21.87499L14.062504,26.56249L35.937495,35.93748L14.062504,45.31248L35.937495,54.68752L14.062504,64.06252L35.937495,73.43752L25,78.12502" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(0,-1,1,0,2400,1350)"/>
+        <path fill="#ffffff" stroke="#ffffff" d="M12,20L38,20L38,80L12,80Z" opacity="0" style="opacity:0" transform="matrix(0,-1,1,0,2400,1350)"/>
+        <text x="0" y="0" fill="#3b4449" stroke="none" font="10px &quot;Arial&quot;" font-size="16px" font-weight="bold" style="text-anchor:middle;font:bold 16px Arial" text-anchor="middle" transform="matrix(1,0,0,1,2450,1287.05)">
+            <tspan dy="-2.3999999999999995">Protective Resistor</tspan><tspan x="0" dy="19.2">100 Ω</tspan>
+        </text>
+        <circle cx="2400" cy="1325" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2500" cy="1325" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2550 1375 L 2550 1450" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1375" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1450" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="10" height="75" x="2545" y="1375" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1375" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1450" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2550" cy="1200" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="#999999" stroke="#3b4449" stroke-width="2" d="M2587.5,1179.1666666666667L2579.1666666666665,1179.1666666666667L2579.1666666666665,1187.5L2581.6666666666665,1185L2590,1193.3333333333333L2587.5,1195.8333333333333L2595.8333333333335,1195.8333333333333L2595.8333333333335,1187.5L2593.3333333333335,1190L2585,1181.6666666666667Z" opacity="0" style="opacity:0"/>
+        <path fill="#3b4449" stroke="none" d="M10.93749,25L25,50L39.06251,25" style="" transform="matrix(-1,0,0,-1,2725,1200)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M25,25L25,0" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(-1,0,0,-1,2725,1200)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M25,50L25,75" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(-1,0,0,-1,2725,1200)"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-miterlimit="6" stroke-width="2" d="M10.93749,50L39.06251,50" style="stroke-linecap:round;stroke-miterlimit:6" transform="matrix(-1,0,0,-1,2725,1200)"/>
+        <path fill="#ffffff" stroke="#ffffff" stroke-width="0.86001581" d="M11.930008,15.430008L38.069992,15.430008L38.069992,59.569992L11.930008,59.569992Z" opacity="0" style="opacity:0" transform="matrix(-1,0,0,-1,2725,1200)"/>
+        <text x="0" y="0" fill="#3b4449" stroke="none" font="10px &quot;Arial&quot;" font-size="16px" font-weight="bold" style="text-anchor:start;font:bold 16px Arial" text-anchor="start" transform="matrix(1,0,0,1,2718.75,1162.5)">
+            <tspan dy="-2.3999999999999995">D1</tspan><tspan x="0" dy="19.2">1N4001</tspan>
+        </text>
+        <circle cx="2700" cy="1200" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2700" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <path fill="none" stroke="#3b4449" stroke-linecap="round" stroke-width="2" d="M 2550 1125 L 2700 1125" class="cl_wire" style="stroke-linecap:round" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2700" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" class="cl_wire" style="display:none" transform="matrix(1,0,0,1,0,0)"/>
+        <rect width="150" height="10" x="2550" y="1122" r="0" fill="#ffffff" stroke="#000" class="cl_wire" opacity="0" rx="0" ry="0" style="opacity:0" transform="matrix(1,0,0,1,0,0)"/>
+        <circle cx="2550" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+        <circle cx="2700" cy="1125" r="5" fill="#999999" stroke="#3b4449" stroke-width="2" opacity="0" style="opacity:0"/>
+    </g>
+</svg>
