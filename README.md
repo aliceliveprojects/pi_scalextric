@@ -18,29 +18,54 @@ Please note: to run an MQTT server on Heroku will require a credit card, even if
 
 The best, safest, way to do this, is to obtain a top-up credit-card, such as one from [Pockit](https://www.pockit.com/) (Other Top-up cards are available). It will ensure that if something goes wrong, and a charge to the card is attempted, there are no funds available, and you won't fall into debt without being aware!
 
+1. Web: Create a project alias on a GMail account
+
+1. Web: Create a Heroku account, using the project alias
+
+1. Web: Create an app in the Heroku account
+
+1. Web: Add the CloudMQTT element to the app in the Heroku account (you'll need to provide a credit card for this)
+
+1. Web: Find the connection details in the app's Config Vars
+
+1. Dev Machine: Use an [MQTT debug client](http://www.mqttfx.org/) to check all is OK
+
 1. Download fresh [Raspbian](https://www.raspberrypi.org/downloads/raspbian/).
 
-2. Pi: [Install](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) onto SD Card.
+1. Pi: [Install](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) onto SD Card.
 
-3. Pi: Update Raspbian
+1. Boot Pi from SD Card, into Desktop
 
-4. Pi: Check for updates - Node-RED on Raspbian
+1. Pi: Update Raspbian
 
-5. Pi: Check for updates -  Python on Raspbian
+1. Pi: Update Node-RED
+   1. see [Node-RED update for Raspberry Pi](https://nodered.org/docs/hardware/raspberrypi)
+   1. start the Node-RED server, as instructed
 
-6. Pi: Install a [git gui](https://git-cola.github.io/downloads.html) if you really can't be bothered with command line
+1. Pi: Install a [git gui](https://git-cola.github.io/downloads.html) if you really can't be bothered with command line
 
-7. Web: Create a project alias on a GMail account
+1. Pi: Clone the [pi_scalextric_node_red](https://github.com/aliceliveprojects/pi_scalextric_node_red) project
 
-8. Web: Create a Heroku account, using the project alias
+1. Pi: Clone the [pi_scalextric_mqtt](https://github.com/aliceliveprojects/pi_scalextric_mqtt) project
 
-9. Web: Create an app in the Heroku account
+1. Pi: Alter the config file:
+   * located at path: <pi_scalextric_mqtt>/mqtt/src/config.json
+      * set the values for the broker as those you have in your MQTT broker account 'details'.
+      * set the values for the paths:
+         * resources: <pi_scalextric_mqtt>/pythonScripts/specialWeaponScripts
+         * throttle: <pi_scalextric_mqtt>/pythonScripts/throttleScripts/channel_throttle.py
+         * sensors: <pi_scalextric_mqtt>/pythonScripts/sensorScripts/sensors.py
 
-10. Web: Add the CloudMQTT element to the app in the Heroku account (you'll need to provide a credit card for this)
 
-11. Web: Find the connection details in the app's Config Vars
-
-12. Dev Machine: Use an [MQTT debug client](http://www.mqttfx.org/) to check all is OK
+1. Pi: Node-RED: import the project:
+   * Edit <pi_scalextric_node_red>/node_red_flow.txt. Select all,copy to clipboard.
+   * Install missing node types, using the 'Manage Palette' menu.
+      * (Note: If this doesn't exist, you don't have npm running)
+      * install node-red-contrib-mqtt-dynamic
+1. Pi: Node-RED: change parameters
+   *  Mqtt Subscribe: Set Global Context: configPath
+      * set value to the path: <pi_scalextric_mqtt>/mqtt/src/config.json
+   
 
 
 
