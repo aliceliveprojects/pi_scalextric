@@ -49,22 +49,32 @@ The best, safest, way to do this, is to obtain a top-up credit-card, such as one
 1. Pi: Clone the [pi_scalextric_mqtt](https://github.com/aliceliveprojects/pi_scalextric_mqtt) project
 
 1. Pi: Alter the config file:
-   * located at path: <pi_scalextric_mqtt>/mqtt/src/config.json
+   * located at path: `<pi_scalextric_mqtt>/mqtt/src/config.json`
       * set the values for the broker as those you have in your MQTT broker account 'details'.
       * set the values for the paths:
-         * resources: <pi_scalextric_mqtt>/pythonScripts/specialWeaponScripts
-         * throttle: <pi_scalextric_mqtt>/pythonScripts/throttleScripts/channel_throttle.py
-         * sensors: <pi_scalextric_mqtt>/pythonScripts/sensorScripts/sensors.py
+         * resources: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/specialWeaponScripts`
+         * throttle: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/throttleScripts/channel_throttle.py`
+         * sensors: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/sensorScripts/sensors.py`
 
 
 1. Pi: Node-RED: import the project:
-   * Edit <pi_scalextric_node_red>/node_red_flow.txt. Select all,copy to clipboard.
+   * Edit `<pi_scalextric_node_red>/node_red_flow.txt`. Select all,copy to clipboard.
    * Install missing node types, using the 'Manage Palette' menu.
       * (Note: If this doesn't exist, you don't have npm running)
-      * install node-red-contrib-mqtt-dynamic
+      * install `node-red-contrib-mqtt-dynamictopic`: NOTE really important not to confuse this with node-red-contrib-mqtt-dynamic
+      * install `node-red-contrib-grovepi`
 1. Pi: Node-RED: change parameters
    *  Mqtt Subscribe: Set Global Context: configPath
-      * set value to the path: <pi_scalextric_mqtt>/mqtt/src/config.json
+      * set value to the path: `<pi_scalextric_mqtt>/mqtt/src/config.json`
+   *  Mqtt Subscribe: Set sensor definition path
+      * Set value on the Sensors File node: `<pi_scalextric_mqtt>/mqtt/src/sensors.json`
+1. Pi:Node-RED: set the mqtt connection parameters
+   * select any one of the Nodes of type: **mqtt-dynamic**
+   * in the [sidebar](https://nodered.org/docs/user-guide/editor/) click on the gear icon to bring up the configuration
+   * the configuration sets the values for all nodes of this type.
+   * set the MQTT connection info to the same as that entered for the `config.json`
+1. Pi: Python: Install packages for mqtt - python checks the sensor values and sends to MQTT.
+   * `pip install paho-mqtt`
    
 
 
@@ -78,7 +88,9 @@ Useful refs:
 
 [GitCola](https://git-cola.github.io/downloads.html)
 
-[pi pinout](https://www.digikey.co.uk/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band)
+[pi pinout](https://pinout.xyz/)
+
+[LED](https://www.electronics2000.co.uk/pin-out/led.php)
 
 [resistor lookup](https://www.digikey.co.uk/en/resources/conversion-calculators/conversion-calculator-resistor-color-code-4-band)
 
