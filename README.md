@@ -4,7 +4,6 @@ Have a look at the [schematic](https://aliceliveprojects.github.io/pi_scalextric
 
 This is the parent project to the following components:
 
-* [pi_scalextric_node_red](https://github.com/aliceliveprojects/pi_scalextric_node_red) contains mqtt node-red flows 
 * [pi_scalextric_mqtt](https://github.com/aliceliveprojects/pi_scalextric_mqtt) contains mqtt broker setup, python scripts and configuration files
 * [pi_scalextric_spwa](https://github.com/aliceliveprojects/pi_scalextric_spwa) contains a simple single page web app to control scalextrix cars via mqtt
 
