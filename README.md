@@ -96,3 +96,9 @@ Useful refs:
 [TIP3055 (NPN)](https://github.com/aliceliveprojects/pi_scalextric/blob/master/documentation/resources/TIP3055-D.PDF)
 
 [back emf supression](https://progeny.co.uk/back-emf-suppression/)
+
+
+
+---
+
+This is the work of [Yusof Bandar](https://github.com/YusofBandar).
