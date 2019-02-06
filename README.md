@@ -7,6 +7,26 @@ This is the parent project to the following components:
 * [pi_scalextric_mqtt](https://github.com/aliceliveprojects/pi_scalextric_mqtt) contains mqtt broker setup, python scripts and configuration files
 * [pi_scalextric_spwa](https://github.com/aliceliveprojects/pi_scalextric_spwa) contains a simple single page web app to control scalextrix cars via mqtt
 
+### TL;DR – *You can skip most of this article if you do the following:*
+1) Clone `pi_scalextric_mqtt` onto Raspberry Pi
+
+1) Edit the `config.json`, `resources.json` and `sensors.json` files with appropriate details
+
+1) Run `node-red-start` and copy the `mqtt_flow.json` flow
+
+1) Change global context: configPath to the absolute path to the `config.json` file
+
+1) Setup new Mqtt connections for each Mqtt module and deploy
+
+
+1) Run `python qrCodeGen.py [PATH_TO_CONFIG_FILE] [HOST_OF_SPWA]`
+
+1) Generated Qr code can be scanned to direct users to SPWA
+
+
+
+
+
 
 
 ## How To
