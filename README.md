@@ -7,6 +7,8 @@ This is the parent project to the following components:
 * [pi_scalextric_mqtt](https://github.com/aliceliveprojects/pi_scalextric_mqtt) contains mqtt broker setup, python scripts and configuration files
 * [pi_scalextric_spwa](https://github.com/aliceliveprojects/pi_scalextric_spwa) contains a simple single page web app to control scalextrix cars via mqtt
 
+---
+
 ### TL;DR – *You can skip most of this article if you do the following:*
 1) Clone `pi_scalextric_mqtt` onto Raspberry Pi
 
