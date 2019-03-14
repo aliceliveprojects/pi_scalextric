@@ -118,6 +118,9 @@ Useful refs:
 
 [back emf supression](https://progeny.co.uk/back-emf-suppression/)
 
+[grove pi board](https://www.seeedstudio.com/GrovePi-p-2241.html) - used for convenience
+
+[grove pi ir reflective sensors](https://www.seeedstudio.com/Grove-Infrared-Reflective-Sensor-v1-2-p-2791.html) - used for lap-times
 
 
 ---
