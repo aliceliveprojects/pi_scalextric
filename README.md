@@ -5,38 +5,31 @@ Have a look at the [schematic](https://aliceliveprojects.github.io/pi_scalextric
 ## Project Structure
 * [pi_scalextric_mqtt](https://github.com/aliceliveprojects/pi_scalextric_mqtt) contains mqtt broker setup, python scripts and configuration files
 * [pi_scalextric_spwa](https://github.com/aliceliveprojects/pi_scalextric_spwa) contains a simple single page web app to control scalextrix cars via mqtt
+* [alice-mqtt-broker](https://github.com/aliceliveprojects/alice-mqtt-broker) contains an Aedes MQTT broker implementation, with in-memory persistence, ready for deployment on Heroku. Supports websockets only.
+* [alice-mqtt-dynamic](https://github.com/aliceliveprojects/alice-mqtt-dynamic) contains an implementation of the Node-RED mqtt-dynamic node, which supports communication to an MQTT broker via websockets.
 
 ---
 
-### TL;DR – *You can skip most of this article if you do the following:*
-1) Clone `pi_scalextric_mqtt` onto Raspberry Pi
+# Summary
+This is the parent project covering the above projects, which use a Rasberry Pi to  control a modified Scalextric set. 
 
-1) Edit the `config.json`, `resources.json` and `sensors.json` files with appropriate details
-
-1) Run `node-red-start` and copy the `mqtt_flow.json` flow
-
-1) Change global context: configPath to the absolute path to the `config.json` file
-
-1) Setup new Mqtt connections for each Mqtt module and deploy
-
-
-1) Run `python qrCodeGen.py [PATH_TO_CONFIG_FILE] [HOST_OF_SPWA]`
-
-1) Generated Qr code can be scanned to direct users to SPWA
-
-
-
-
-
-
+1. Set-up a development system connecting the Raspberry Pi and your PC / Mac, via a local network connection, using a router. 
+1. Deploy `alice-mqtt-broker` to Heroku.
+1. Clone `pi_scalextric_mqtt` onto Raspberry Pi:
+   1. Edit the `config.json`, `resources.json` and `sensors.json` files with appropriate details
+   1. Run `node-red-start` and import the `mqtt_flow.json` flow into Node-RED
+   1. Change global context: configPath to the absolute path to the `config.json` file
+   1. In Node-RED:  Setup new Mqtt connections for each Mqtt module and deploy
+1. Clone `alice-mqtt-dynamic` to the Raspberry Pi
+   1. Use the instructions in the repo to replace the mqtt-dynamic node with `alice-mqtt-dynamic`.
+1. Deploy `pi_scalextric_spwa` to GitHub pages.
+1. Create a QR Code wich will load the SPWA onto a recent Android or iPhone:
+   1. On the RPi: Run `python qrCodeGen.py [PATH_TO_CONFIG_FILE] [HOST_OF_SPWA]`
+   1. Generated Qr code can be scanned to direct users to SPWA
 
 ## How To
 
 Here's how I'm setting up the system:
-
-Please note: to run an MQTT server on Heroku will require a credit card, even if on a free tier. 
-
-The best, safest, way to do this, is to obtain a top-up credit-card, such as one from [Pockit](https://www.pockit.com/) (Other Top-up cards are available). It will ensure that if something goes wrong, and a charge to the card is attempted, there are no funds available, and you won't fall into debt without being aware!
 
 1. Web: Create a project alias on a GMail account
 
@@ -44,11 +37,9 @@ The best, safest, way to do this, is to obtain a top-up credit-card, such as one
 
 1. Web: Create an app in the Heroku account
 
-1. Web: Add the CloudMQTT element to the app in the Heroku account (you'll need to provide a credit card for this)
+1. Web: Connect Heroku to the `alice-mqtt-broker` and deploy
 
-1. Web: Find the connection details in the app's Config Vars
-
-1. Dev Machine: Use an [MQTT debug client](http://www.mqttfx.org/) to check all is OK
+1. Dev Machine: Use an [MQTT debug client](https://chrome.google.com/webstore/detail/mqttbox/kaajoficamnjijhkeomgfljpicifbkaf) to check all is OK
 
 1. Download fresh [Raspbian](https://www.raspberrypi.org/downloads/raspbian/).
 
@@ -62,21 +53,17 @@ The best, safest, way to do this, is to obtain a top-up credit-card, such as one
    1. see [Node-RED update for Raspberry Pi](https://nodered.org/docs/hardware/raspberrypi)
    1. start the Node-RED server, as instructed
 
-1. Pi: Install a [git gui](https://git-cola.github.io/downloads.html) if you really can't be bothered with command line
-
-1. Pi: Clone the [pi_scalextric_node_red](https://github.com/aliceliveprojects/pi_scalextric_node_red) project
+1. Install the development environment:
+   1. see [Development Environment](https://github.com/aliceliveprojects/little_blue_pi/blob/master/documentation/worklogs/27.01.2020.md)
 
 1. Pi: Clone the [pi_scalextric_mqtt](https://github.com/aliceliveprojects/pi_scalextric_mqtt) project
-
+   1. we'll refer to it as <pi_scalextric_mqtt>
 1. Pi: Alter the config file:
    * located at path: `<pi_scalextric_mqtt>/mqtt/src/config.json`
-      * set the values for the broker as those you have in your MQTT broker account 'details'.
+      * set the values for the broker as those you have in your MQTT broker account settings
       * set the values for the paths:
          * resources: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/specialWeaponScripts`
-         * throttle: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/throttleScripts/channel_throttle.py`
          * sensors: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/sensorScripts/sensors.py`
-
-
 1. Pi: Node-RED: import the project:
    * Edit `<pi_scalextric_node_red>/node_red_flow.txt`. Select all,copy to clipboard.
    * Install missing node types, using the 'Manage Palette' menu.
