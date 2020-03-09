@@ -65,11 +65,8 @@ Here's how I'm setting up the system:
          * resources: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/specialWeaponScripts`
          * sensors: `<pi_scalextric_mqtt>/mqtt/src/pythonScripts/sensorScripts/sensors.py`
 1. Pi: Node-RED: import the project:
-   * Edit `<pi_scalextric_node_red>/node_red_flow.txt`. Select all,copy to clipboard.
-   * Install missing node types, using the 'Manage Palette' menu.
-      * (Note: If this doesn't exist, you don't have npm running)
-      * install `node-red-contrib-mqtt-dynamictopic`: NOTE really important not to confuse this with node-red-contrib-mqtt-dynamic
-      * install `node-red-contrib-grovepi`
+   * Edit `<pi_scalextric_mqtt>/mqtt_flow.json`. Select all,copy to clipboard, use the Node-RED 'import' function.
+   * Install the correct node types, using the instructions in <alice-mqtt-dynamic>
 1. Pi: Node-RED: change parameters
    *  Mqtt Subscribe: Set Global Context: configPath
       * set value to the path: `<pi_scalextric_mqtt>/mqtt/src/config.json`
@@ -81,9 +78,9 @@ Here's how I'm setting up the system:
    * the configuration sets the values for all nodes of this type.
    * set the MQTT connection info to the same as that entered for the `config.json`
 1. Pi: Python: Install packages for mqtt - python checks the sensor values and sends to MQTT.
-   * `pip install paho-mqtt`
+   * PLEASE NOTE: PYTHON *3*
+   * `pip3 install paho-mqtt`
    
-
 
 
 
